@@ -1,0 +1,44 @@
+#contact {
+  color: #f1f1f1;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+#contact h2 {
+  padding: 1em;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fbfbfb;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-size: 1.1em;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #1e90ff;
+  color: #fff;
+  border: 0;
+  margin-top: 0.5em;
+  cursor: pointer;
+}

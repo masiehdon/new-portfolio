@@ -1,0 +1,18 @@
+#introduction p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #a39f9f;
+    text-align: justify;
+}
+
+#introduction {
+  color: #f1f1f1;
+  height: 100vh;
+  line-height: 2;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 5em;
+ }

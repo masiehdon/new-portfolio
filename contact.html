@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+        <h1>My Portfolio</h1>
+      </header>
+    <nav>
+        <ul>
+      <li><a href="" id="home-file" class="home">Home</a></li>
+        <li><a href="" id="about-me-file" class="about-me">About Me</a></li>
+        <li><a href="" id="projects-file" class="link-to-projects">Projects</a></li>
+        <li><a href="" id="aontact-file" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <main class="bg">
+    <section id="contact">
+      <h2>Contact Me</h2>
+
+      <p>Get in touch with me using the form below.</p>
+
+      <form action="/contact" method="POST">
+        <label for="name">Name:</label><br />
+        <input type="text" name="name" placeholder="Enter your name" /><br />
+        <label for="email">Email:</label><br />
+        <input type="text" name="email" placeholder="Enter your email" /><br />
+        <label for="message">Message:</label><br />
+        <textarea name="message" placeholder="Enter your message"></textarea
+        ><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    </main>
+    <footer>
+      <section id="thatsMe">
+        <p>
+       As a language enthusiast turned Frontend Developer, I'm fluent in determination and hard work. Browse my portfolio and connect with me on GitHub to learn and grow together.
+        </p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
